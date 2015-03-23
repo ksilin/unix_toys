@@ -4,7 +4,7 @@ require 'test/unit'
 
 # pipes have to be queried explicitly
 # perhaps overriding signal handlers is a better way for IPC?
-# can I efine custom signals (except the existing ones - USR1, USR2)
+# can I define custom signals (except the existing ones - USR1, USR2)
 
 class SimplePipesTest < Test::Unit::TestCase
 
